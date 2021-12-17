@@ -4,6 +4,7 @@
 
 - A cairo surface with a slider that can change the color of the surface
 
+## ![slider-color](./images/slider-color.gif)
 
 ## Build
 
