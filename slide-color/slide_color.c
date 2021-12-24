@@ -144,7 +144,7 @@ int main(int argc, char **argv) {
 
     gtk_widget_set_size_request (drawing_area, 400, 400);
     gtk_window_set_default_size (GTK_WINDOW(win), 400, 400);
-    gtk_window_set_title (GTK_WINDOW(win), "Changing color acording to a slider value!");
+    gtk_window_set_title (GTK_WINDOW(win), "Changing color according to a slider value!");
 
     // callbacks
     g_signal_connect (win, "delete_event", G_CALLBACK (gtk_main_quit), NULL);
